@@ -4,16 +4,9 @@ We are introducing my.NYIT the android application software. The my.NYIT app is 
 
 <img src="https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/LoginPage_my.nyit.PNG" style=" width:50px ; height:50px " />
 
-
 <img src="https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/NewUserLogin_my.nyit.PNG" style=" width:50px ; height:50px " />
-<img src="
-https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/SchedulePage.png" style=" width:50px ; height:50px " />
-<img src="
-https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/Screen%20Shot%202017-10-24%20at%2011.32.17%20PM.png" style=" width:50px ; height:50px " />
-<img src="
-https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/Screen%20Shot%202017-10-24%20at%2011.32.35%20PM.png" style=" width:50px ; height:50px " />
-<img src="
-
-https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/StudentConnect.png" style=" width:50px ; height:50px " />
-<img src="
-https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/Subjects.png" style=" width:50px ; height:50px " />
+<img src="https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/SchedulePage.png" style=" width:50px ; height:50px " />
+<img src="https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/Screen%20Shot%202017-10-24%20at%2011.32.17%20PM.png" style=" width:50px ; height:50px " />
+<img src="https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/Screen%20Shot%202017-10-24%20at%2011.32.35%20PM.png" style=" width:50px ; height:50px " />
+<img src="https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/StudentConnect.png" style=" width:50px ; height:50px " />
+<img src="https://github.com/ankitgsa/myNYIT/blob/master/Screenshots/Subjects.png" style=" width:50px ; height:50px " />
