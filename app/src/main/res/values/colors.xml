@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFCA28</color>
+    <color name="colorPrimaryDark">#FF8F00</color>
+    <color name="colorAccent">#ffe940</color>
+    <color name="backgroundOrange">#FFECB3</color>
+    <color name="nyitOrange">@android:color/holo_orange_light</color>
+    <color name="nyitOrange2">#ffc107</color>
+    <color name="nyitOrange3">#ff9100</color>
+    <color name="nyitBlue">#831a2fc6</color>
+    <color name="colorDivider">#e78a19</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorMild">#a31111</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>

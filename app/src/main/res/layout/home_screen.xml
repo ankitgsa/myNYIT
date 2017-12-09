@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false"
+    android:screenOrientation="portrait"
+    android:background="@color/backgroundOrange">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/nyitBannerBlack"
+            android:layout_width="373dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="4dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:foregroundGravity="fill"
+            android:padding="5dp"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nyitblack"
+            tools:layout_editor_absoluteX="5dp" />
+
+        <ImageButton
+            android:id="@+id/classSchedule"
+            android:layout_width="364dp"
+            android:layout_height="159dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:background="@color/nyitOrange2"
+            android:elevation="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nyitBannerBlack"
+            app:srcCompat="@drawable/classschedule" />
+
+        <ImageButton
+            android:id="@+id/grades"
+            android:layout_width="@dimen/squareTileWidth"
+            android:layout_height="@dimen/squareTileHeight"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ripple_effect"
+            android:elevation="8dp"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/classSchedule"
+            app:srcCompat="@drawable/grades" />
+
+        <ImageButton
+            android:id="@+id/athletics"
+            android:layout_width="@dimen/smallTileWidth"
+            android:layout_height="@dimen/smallTileHeight"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="9dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ripple_effect"
+            android:elevation="8dp"
+            android:paddingTop="5dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toTopOf="@+id/ConnectStudent"
+            app:layout_constraintRight_toLeftOf="@+id/personalInfo"
+            app:srcCompat="@drawable/athletics" />
+
+        <ImageButton
+            android:id="@+id/personalInfo"
+            android:layout_width="@dimen/smallTileWidth"
+            android:layout_height="@dimen/smallTileHeight"
+            android:layout_marginBottom="373dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ripple_effect"
+            android:elevation="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.993"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/personalinfo" />
+
+        <ImageButton
+            android:id="@+id/ConnectStudent"
+            android:layout_width="@dimen/smallLongTileWidth"
+            android:layout_height="@dimen/smallLongTileHeight"
+            android:layout_marginBottom="305dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ripple_effect"
+            android:elevation="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.99"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/studentconnect" />
+
+        <ImageButton
+            android:id="@+id/libraries"
+            android:layout_width="@dimen/squareTileWidth"
+            android:layout_height="@dimen/squareTileHeight"
+            android:layout_margin="5dp"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ripple_effect"
+            android:elevation="8dp"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grades"
+            app:srcCompat="@drawable/libraries" />
+
+        <ImageButton
+            android:id="@+id/career"
+            android:layout_width="@dimen/squareTileWidth"
+            android:layout_height="@dimen/squareTileHeight"
+            android:layout_margin="5dp"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ripple_effect"
+            android:elevation="8dp"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grades"
+            app:srcCompat="@drawable/careerservices" />
+
+
+        <ImageButton
+            android:id="@+id/blackboard"
+            android:layout_width="364dp"
+            android:layout_height="159dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="152dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ripple_effect"
+            android:elevation="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/career"
+            app:srcCompat="@drawable/blackboard" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_marginRight="16dp"
+            android:src="@android:drawable/ic_dialog_email"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="528dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundOrange"
+    >
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_orange_light"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="52dp"
+        android:layout_above="@+id/userNameField"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/phoneField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="174dp"
+        android:layout_above="@+id/emailField"
+        android:layout_alignStart="@+id/nameField" />
+    <EditText
+        android:id="@+id/comfirmPassField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="294dp"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/createButton"
+        android:layout_alignStart="@+id/passField" />
+    <EditText
+        android:id="@+id/passField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="234dp"
+        android:layout_above="@+id/comfirmPassField"
+        android:layout_alignStart="@+id/emailField" />
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="113dp"
+        android:layout_above="@+id/passField"
+        android:layout_alignStart="@+id/phoneField" />
+    <EditText
+        android:id="@+id/userNameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="User Name"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="113dp"
+        android:layout_above="@+id/studentIDField"
+        android:layout_alignStart="@+id/phoneField" />
+    <EditText
+        android:id="@+id/studentIDField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Student ID"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="113dp"
+        android:layout_above="@+id/phoneField"
+        android:layout_alignStart="@+id/phoneField" />
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="CREATE ACCOUNT"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="381dp" />
+    <TextView
+        android:id="@+id/nyitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nyitMail"
+        android:textSize="22sp"
+        android:textColor="#5e5d5d"
+        android:layout_alignTop="@+id/emailField"
+        android:layout_toEndOf="@+id/emailField" />
+    <ImageView
+        android:id="@+id/nyitBlackLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nameField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:paddingTop="20dp"
+        app:srcCompat="@drawable/bluelogo" />
+</RelativeLayout>

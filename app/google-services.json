@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "482374842512",
+    "firebase_url": "https://mynyit-2109.firebaseio.com",
+    "project_id": "mynyit-2109",
+    "storage_bucket": "mynyit-2109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482374842512:android:e9f2479b41a2b3ab",
+        "android_client_info": {
+          "package_name": "com.darwin.ankitsrivastava.mynyit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482374842512-a7oelaofpqcfiqg8e7dfh1euidcvi4oa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darwin.ankitsrivastava.mynyit",
+            "certificate_hash": "abc50b47cdfc85b81b6afc75c82e53db0a21160e"
+          }
+        },
+        {
+          "client_id": "482374842512-i7qltprpan1u4fis1ddvdk0v4chupptk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXA5v6IkHmj3zTo4sxJtCDdOIuBf467Gc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482374842512-i7qltprpan1u4fis1ddvdk0v4chupptk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
