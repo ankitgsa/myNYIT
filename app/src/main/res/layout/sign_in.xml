@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:hint="Enter password"
+            android:importantForAccessibility="no"
             android:inputType="textPassword" />
 
         <Button
